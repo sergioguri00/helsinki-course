@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const mongoose = require('mongoose')
 
 if (process.argv.length<3) {
@@ -40,5 +41,18 @@ if (process.argv.length<4) {
     })
 }
 
+test('there are two notes', async () => {
+  const response = await api.get('/api/notes')
+
+  assert.strictEqual(response.body.length, 2)
+})
+
+test('the first note is about HTTP methods', async () => {
+  const response = await api.get('/api/notes')
+
+  const contents = response.body.map(e => e.content)
+  // es el argumento truthy
+  assert(contents.includes('HTML is easy'))
+})
 
 

@@ -1,5 +1,5 @@
 {
-  "name": "helsinki-course-part3",
+  "name": "4.1-4.2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,20 +12,16 @@
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.5.2",
-  "devDependencies": {
-    "@eslint/js": "^9.21.0",
-    "@stylistic/eslint-plugin-js": "^4.1.0",
-    "cross-env": "^7.0.3",
-    "eslint": "^9.21.0",
-    "globals": "^16.0.0",
-    "nodemon": "^3.1.9",
-    "supertest": "^7.0.0"
-  },
   "dependencies": {
     "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "lodash": "^4.17.21",
     "mongoose": "^8.11.0",
-    "morgan": "^1.10.0"
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
   }
 }
