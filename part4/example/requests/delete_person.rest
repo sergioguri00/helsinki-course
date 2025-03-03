@@ -1,0 +1,2 @@
+//delete person 67c06d07b7cbb1534682422f
+DELETE http://localhost:3001/api/persons/67c06d07b7cbb1534682422f
