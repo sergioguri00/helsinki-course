@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "Paco va al Zoo",
+  "author": "Paco Paquito",
+  "url": "http://pacopaquito.com",
+  "likes": 3
+}
