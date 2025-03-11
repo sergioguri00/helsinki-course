@@ -1,0 +1,17 @@
+--2025-03-11 11:45:25--  https://update.code.visualstudio.com/commit:2fc07b811f760549dab9be9d2bedd06c51dfcb9a/server-linux-x64/stable
+Resolving update.code.visualstudio.com (update.code.visualstudio.com)... 13.107.253.43, 2620:1ec:29:1::43
+Connecting to update.code.visualstudio.com (update.code.visualstudio.com)|13.107.253.43|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://vscode.download.prss.microsoft.com/dbazure/download/stable/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/vscode-server-linux-x64.tar.gz [following]
+--2025-03-11 11:45:26--  https://vscode.download.prss.microsoft.com/dbazure/download/stable/2fc07b811f760549dab9be9d2bedd06c51dfcb9a/vscode-server-linux-x64.tar.gz
+Resolving vscode.download.prss.microsoft.com (vscode.download.prss.microsoft.com)... 199.232.210.172, 199.232.214.172, 2a04:4e42:4e::684, ...
+Connecting to vscode.download.prss.microsoft.com (vscode.download.prss.microsoft.com)|199.232.210.172|:443... failed: Connection timed out.
+Connecting to vscode.download.prss.microsoft.com (vscode.download.prss.microsoft.com)|199.232.214.172|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 60681213 (58M) [application/octet-stream]
+Saving to: ‘/root/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a-1741689789.tar.gz’
+
+           /root/.vsco   0%[                          ]       0  --.-KB/s                         /root/.vscod   0%[                          ] 541.22K  2.64MB/s                        /root/.vscode   3%[                          ]   1.74M  4.35MB/s                       /root/.vscode-   7%[=>                        ]   4.47M  7.41MB/s                      /root/.vscode-s  15%[===>                      ]   8.92M  10.9MB/s                     /root/.vscode-se  24%[=====>                    ]  14.06M  13.8MB/s                    /root/.vscode-ser  34%[========>                 ]  20.15M  16.5MB/s                   /root/.vscode-serv  50%[============>             ]  29.09M  20.5MB/s                  /root/.vscode-serve  62%[===============>          ]  36.24M  22.4MB/s                 /root/.vscode-server  80%[===================>      ]  46.58M  25.6MB/s                /root/.vscode-server/  97%[========================> ]  56.41M  27.9MB/s               /root/.vscode-server/b 100%[=========================>]  57.87M  28.3MB/s    in 2.0s    
+
+2025-03-11 11:47:42 (28.3 MB/s) - ‘/root/.vscode-server/bin/2fc07b811f760549dab9be9d2bedd06c51dfcb9a-1741689789.tar.gz’ saved [60681213/60681213]
+

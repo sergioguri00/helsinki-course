@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InNlcmdpbyIsImlkIjoiNjdkMDIwMjE0MmY5ODk5ZmMxZGU1MTc5IiwiaWF0IjoxNzQxNjkzMzA4fQ.EhiJThYXg_Eu_X5N4qfEtRrP7wODS4f_Bwilmz7CAkA
+
+{
+  "title": "Paco va a la montaña",
+  "author": "Paco Paquito",
+  "url": "http://pacopaquito.com",
+  "likes": 3
+}
